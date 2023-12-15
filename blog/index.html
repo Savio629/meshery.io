@@ -1,14 +1,13 @@
 ---
 title: Blog
 description: Keep up with the latest news.
+permalink: /blogs/
 paginate:
-  collection: posts
-  paginate: 2
-  permalink: /page/:num/
+  collection: blogs
 ---
 
 <div class="text-container">
-  <div class="section-bar"><h1>Blog</h1></div>
+  <div class="section-bar"><h1>Blog1</h1></div>
   <ul class="blog-posts">
     {% include list-posts.html posts=paginator.posts %}
   </ul>
