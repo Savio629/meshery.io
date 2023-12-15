@@ -52,7 +52,6 @@ collections:
     sort_by: patternId
   blogs:
     output: true
-    permalink: /:collection/:title/
 # paginate: 5
 # paginate_path: "/blog/:num/"
 
@@ -67,7 +66,6 @@ collections:
 #   sort_field: "date"
 #   sort_reverse: true
 pagination:
-  limit: false
   per_page: 2
   title: " - page :num"
   permalink: "/page:num"
